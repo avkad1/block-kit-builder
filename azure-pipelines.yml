@@ -31,6 +31,10 @@ steps:
   - script: |
       git push origin HEAD:$(Build.SourceBranchName)
     displayName: "Updated version in code"
-  - script: |
-      npm publish
-    displayName: "Publish Package"
+  - task: Npm@1
+    inputs:
+      command: 'publish'
+      workingDir: './'
+      publishRegistry: 'useFeed'
+      publishFeed: 'cad167df-8d9c-44fe-8127-6d49aca56571'
+    displayName: 'Publish to artifact feed'
