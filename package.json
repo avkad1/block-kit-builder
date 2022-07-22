@@ -1,6 +1,6 @@
 {
   "name": "@springrole/block-kit-builder",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.13",
   "description": "Block kit builder containing re-usable blocks to be used on any slack app",
   "main": "./lib",
   "scripts": {
@@ -15,22 +15,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpringRole/block-kit-builder.git"
+    "url": "git+https://dev.azure.com/SpringworksDev/Trivia/_git/block-kit-builder.git"
   },
-  "bugs": {
-    "url": "https://github.com/SpringRole/block-kit-builder/issues"
-  },
-  "homepage": "https://github.com/SpringRole/block-kit-builder#readme",
   "dependencies": {
     "dayjs": "1.10.7",
     "lodash": "4.17.21"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
     "husky": "^7.0.4",
     "prettier": "^2.5.1"
   }
