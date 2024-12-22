@@ -1,4 +1,4 @@
-# @springrole/block-kit-builder
+# @avkad1/block-kit-builder
 
 ## Getting started
 
@@ -7,14 +7,14 @@ This is a simple package that can be used to create the blocks and views require
 ### Installation
 
 ```console
- npm install --save @springrole/block-kit-builder
+ npm install --save @avkad1/block-kit-builder
 ```
 
 ---
 ### Usage
 
 ```javascript
-const BlockKitBuilder = require("@springrole/block-kit-builder");
+const BlockKitBuilder = require("@avkad1/block-kit-builder");
 
 const blocks = BlockKitBuilder.Blocks.markdown({
   text: "Hello world!",
@@ -29,7 +29,7 @@ const blocks = BlockKitBuilder.Blocks.markdown({
 
 // OR
 
-const { Blocks, Accessory } = require("@springrole/block-kit-builder");
+const { Blocks, Accessory } = require("@avkad1/block-kit-builder");
 const blocks = Blocks.markdown({
   text: "Hello world!",
   blockId: "hello_block",
@@ -43,4 +43,4 @@ const blocks = Blocks.markdown({
 ```
 ---
 ### License
-@springrole/block-kit-builder is licensed under the [MIT License](https://github.com/iamkun/dayjs/blob/HEAD/LICENSE).
+@avkad1/block-kit-builder is licensed under the [MIT License](https://github.com/iamkun/dayjs/blob/HEAD/LICENSE).
